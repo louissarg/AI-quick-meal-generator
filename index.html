@@ -7,48 +7,57 @@
     <title>AI Quick Meal Generator</title>
   </head>
   <body>
-    <header>
-    <h1>Welcome to my AI Quick Meal Generator</h1>
-</header>
-<main>
-    <form>
-        <input type="text"
-        placeholder="Enter a Quick meal idea you have in mind"
-        autofocus required autocomplete="off"/>
-        <input type="submit"/>
-    </form>
-    <div>
-    Method
-    <br/>
-step 1
-Bring a pan of water to the boil and cook the fusilli according to the pack instructions.
-    <br/>
-step 2
-Meanwhile, heat a knob of butter in a saucepan, then add the shallot and cook for 5 mins or until softened.
-<br/>
-step 3
-Add the peas, salmon, crème fraîche and 50ml water. Crumble in the stock cube.
-<br/>
-step 4
-Cook for 3-4 mins until cooked through, stir in the chives and some black pepper. Then stir through to coat the pasta. Serve in bowls.
+    <div class="container">
+      <header>
+        <h1>Welcome to my AI Quick Meal Generator</h1>
+      </header>
+
+      <main>
+        <form>
+          <input
+            type="text"
+            placeholder="Enter a Quick meal idea you have in mind"
+            autofocus
+            required
+            autocomplete="off"
+            class="instructions"
+          />
+
+          <input type="submit" class="submit-button" />
+        </form>
+        <div class="recipe">
+          Method
+          <br />
+          step 1 Bring a pan of water to the boil and cook the fusilli according
+          to the pack instructions.
+          <br />
+          step 2 Meanwhile, heat a knob of butter in a saucepan, then add the
+          shallot and cook for 5 mins or until softened.
+          <br />
+          step 3 Add the peas, salmon, crème fraîche and 50ml water. Crumble in
+          the stock cube.
+          <br />
+          step 4 Cook for 3-4 mins until cooked through, stir in the chives and
+          some black pepper. Then stir through to coat the pasta. Serve in
+          bowls.
+        </div>
+      </main>
+
+      <footer>
+        This was coded by Louissar Gwanta and is open-sourced on
+        <a
+          href="https://github.com/louissarg/AI-quick-meal-generator"
+          target="_blank"
+        >
+          GitHub</a
+        >
+
+        and is hosted on
+        <a href="https://ai-quick-meal-generator.netlify.app/" target="_blank">
+          Netlify</a
+        >
+      </footer>
     </div>
-
-
-    <footer>
-      This was coded by Louissar Gwanta and is open-sourced on
-      <a
-        href="https://github.com/louissarg/AI-quick-meal-generator"
-        target="_blank"
-      >
-        GitHub</a
-      >
-
-      and is hosted on
-      <a href="https://ai-quick-meal-generator.netlify.app/" target="_blank">
-        Netlify</a
-      >
-    </footer>
-
     <script src="src/index.js"></script>
   </body>
 </html>

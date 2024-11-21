@@ -1,0 +1,19 @@
+body {
+  background-color: darksalmon;
+}
+
+header {
+  margin-bottom: 25px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.recipe {
+  font-size: 14px;
+  background-color: white;
+  line-height: 3;
+  box-shadow: inset;
+  padding: 15px;
+}
