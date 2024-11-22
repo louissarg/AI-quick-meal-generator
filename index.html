@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/index.css" />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <title>AI Quick Meal Generator</title>
   </head>
   <body>
@@ -13,7 +14,7 @@
       </header>
 
       <main>
-        <form>
+        <form id="meal-generator-form">
           <input
             type="text"
             placeholder="Enter a Quick meal idea you have in mind"
@@ -25,22 +26,7 @@
 
           <input type="submit" class="submit-button" />
         </form>
-        <div class="recipe">
-          Method
-          <br />
-          step 1 Bring a pan of water to the boil and cook the fusilli according
-          to the pack instructions.
-          <br />
-          step 2 Meanwhile, heat a knob of butter in a saucepan, then add the
-          shallot and cook for 5 mins or until softened.
-          <br />
-          step 3 Add the peas, salmon, crème fraîche and 50ml water. Crumble in
-          the stock cube.
-          <br />
-          step 4 Cook for 3-4 mins until cooked through, stir in the chives and
-          some black pepper. Then stir through to coat the pasta. Serve in
-          bowls.
-        </div>
+        <div class="recipe" id="recipe"></div>
       </main>
 
       <footer>
