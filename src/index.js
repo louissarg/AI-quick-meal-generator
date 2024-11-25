@@ -1,15 +1,13 @@
+function generateRecipe(event) {
+  event.preventDefault();
 
-function generaterRecipe(event) {
-    event.preventDefault();
-
-    new typewriter("#recipe", {
-        strings:"step 1 Bring a pan of water to the boil "
-          autoStart: true,
-          delay: 50,
-          cursor: "",
-    })
+  new Typewriter("#recipe", {
+    strings: "step 1 Bring a pan of water to the boil ",
+    autoStart: true,
+    delay: 50,
+    cursor: "",
+  });
 }
 
-let recipeFormElement = document.querySelector("#recipe-form");
-recipeFormElement.addEventListener("submit", generaterRecipe);
-
+let recipeFormElement = document.querySelector("#meal-generator-form");
+recipeFormElement.addEventListener("submit", generateRecipe);
